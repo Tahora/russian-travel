@@ -1,0 +1,9 @@
+
+
+
+
+@media  screen and (min-width: 768px) and (max-width: 1024px) { 
+    .text-space_size_m::after {
+        content: '\00A0';   
+    } 
+}

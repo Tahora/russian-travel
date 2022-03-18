@@ -1,0 +1,19 @@
+.footer__navigation-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display:  inline-grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, max-content));/*auto-fill, min-content);*/
+    grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
+    gap: 18px;
+}
+
+@media  screen and (max-width: 425px) { 
+    .footer__navigation-list {
+        gap: 32px;
+        line-height: 1;
+        grid-auto-flow: row;
+     
+    }
+}

@@ -1,0 +1,26 @@
+.cover {
+    width: 100%;
+    max-width: 1184px;
+    margin: 0 auto 0;   
+    padding: 92px 0 0 ;
+  /*   display: grid;
+    justify-items: center;
+    align-items: center;
+   grid-template-columns: 1fr; 
+    grid-template-rows: calc(1fr + 152px) calc(1fr + 66px); 
+   
+    gap: 32px;*/
+}
+
+@media  screen  and (min-width: 425px) and (max-width: 768px) { 
+    .cover__title  {
+        padding-top: 90px;
+    }
+}
+
+@media  screen and (max-width: 425px) { 
+    .cover  {
+       /* gap: 16px; */  
+       padding-top: 66px;
+    }
+}

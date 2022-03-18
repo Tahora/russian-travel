@@ -1,0 +1,14 @@
+.header__lang-links {
+    grid-column: 1;
+    grid-row: 1;
+    align-self:end;
+    justify-self:end;
+    margin: 0 0 5px;
+}
+
+
+@media screen and (max-width: 425px) { 
+    .header__lang-links {
+        margin-bottom: 7px; 
+    }
+}

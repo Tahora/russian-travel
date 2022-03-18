@@ -1,0 +1,11 @@
+.header__container {
+    display: grid;
+    margin: 28px 0 0;
+
+}
+
+@media screen and (max-width: 425px) { 
+    .header__container {
+        margin-top: 16px; 
+    }
+}

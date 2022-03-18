@@ -1,0 +1,22 @@
+/*
+При увеличении количества текста секции, фоновое изображение 
+не будет растягиваться и урезаться. 
+Область затемнения не будет выходить за пределы фона
+*/
+
+.cover__link {
+    width: 100%; 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+
+}
+
+.cover__link:hover :nth-child(3) {
+    opacity: 0.8;
+}
