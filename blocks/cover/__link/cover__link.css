@@ -14,9 +14,11 @@
     text-decoration: none;
     font-family: 'Inter';
     font-style: normal;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover; 
 
 }
 
-.cover__link:hover :nth-child(3) {
+.cover__link:hover :nth-child(2) {
     opacity: 0.8;
 }
