@@ -18,6 +18,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list/_number/intro__list_number.css);
 @import url(../blocks/text-space/text-space.css);
 @import url(../blocks/text-space/_size/text-space_size_xs.css);
 @import url(../blocks/text-space/_size/text-space_size_s.css);
