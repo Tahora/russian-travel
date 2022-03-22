@@ -23,7 +23,6 @@
 @import url(../blocks/text-space/_size/text-space_size_s.css);
 @import url(../blocks/text-space/_size/text-space_size_m.css);
 @import url(../blocks/text-space/_size/text-space_size_l.css);
-@import url(../blocks/text-space/_size/text-space_size_xl.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/places/places.css);
@@ -35,7 +34,6 @@
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__text-zone/places__text-zone.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
-@import url(../blocks/places/__paragraph/_shortened/places__parafraph_shortened.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
