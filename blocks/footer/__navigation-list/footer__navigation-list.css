@@ -9,11 +9,11 @@
     gap: 18px;
 }
 
-@media  screen and (max-width: 490px) { 
+@media  screen and (max-width: 510px) { 
     .footer__navigation-list {
         gap: 32px;
         line-height: 1;
         grid-auto-flow: row;
-     
+       
     }
 }
