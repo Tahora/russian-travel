@@ -9,7 +9,7 @@
     gap: 18px;
 }
 
-@media  screen and (max-width: 425px) { 
+@media  screen and (max-width: 490px) { 
     .footer__navigation-list {
         gap: 32px;
         line-height: 1;

@@ -5,7 +5,7 @@
     flex-wrap: wrap;
 }
 
-@media  screen and (max-width: 425px) { 
+@media  screen and (max-width: 490px) { 
     .footer__content {
         flex-direction: column;
      
